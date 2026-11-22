@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#090909" />
+  <meta name="description" content="ERROR 404 — интерактивный учебный брендбук независимого креативного агентства." />
+  <title>ERROR 404 — Interactive Brandbook</title>
+  <!-- Бесплатные шрифты с кириллицей. Без интернета используются системные альтернативы. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=Unbounded:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./common.css" />
+  <script type="module" src="./main.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#brief">К содержимому</a>
+
+  <header class="site-header">
+    <a class="logo" href="#top" aria-label="ERROR 404 — к началу">
+      ERR<span class="logo-mark">✳</span>R <span class="logo-code">404</span>
+    </a>
+    <nav class="nav" aria-label="Разделы брендбука">
+      <a href="#brief">01 / Бриф</a>
+      <a href="#colors">02 / Цвет</a>
+      <a href="#type">03 / Типографика</a>
+      <a href="#mockups">04 / Макеты</a>
+    </nav>
+    <span class="header-meta">CREATIVE SYSTEM / 2026</span>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="hero-scan" aria-hidden="true"></div>
+      <div class="hero-topline">
+        <span class="micro">INDEPENDENT CREATIVE BUREAU</span>
+        <span class="micro">[ BRAND SYSTEM / OPEN SOURCE DRAFT ]</span>
+      </div>
+      <div class="hero-main">
+        <div class="hero-copy">
+          <p class="hero-label"><span class="dot"></span> GOOD IDEAS NOT FOUND</p>
+          <h1 id="hero-title">НОРМАЛЬНОСТЬ<br /><span>404</span><br />NOT FOUND<span class="punctuation">.</span></h1>
+          <p class="hero-subtitle" data-brand-slogan>Нормальность переоценена.</p>
+          <a class="button button--primary hero-cta" href="#brief">Открыть брендбук <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="orbit orbit--outer"></div>
+          <div class="orbit orbit--inner"></div>
+          <div class="orbit-core">404</div>
+          <div class="orbit-caption">MAKE IT<br />UNEXPECTED.</div>
+          <span class="hero-cross">✳</span>
+        </div>
+      </div>
+      <div class="hero-bottomline">
+        <span>BAD IDEAS / BIG IMPACT</span>
+        <span>SCROLL TO DECODE ↓</span>
+      </div>
+    </section>
+
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker-track">BREAK THE RULES <span>✳</span> QUESTION THE BRIEF <span>✳</span> DESIGN THE ERROR <span>✳</span> BREAK THE RULES <span>✳</span> QUESTION THE BRIEF <span>✳</span> DESIGN THE ERROR <span>✳</span></div>
+    </div>
+
+    <div class="workspace-head">
+      <div>
+        <span class="eyebrow">CONTROL PANEL / 4 MODULES</span>
+        <h2>БРЕНДБУК<span class="accent-text">_</span></h2>
+      </div>
+      <div class="workspace-actions">
+        <button class="button button--primary" id="print-brandbook" type="button">Печать / PDF ↗</button>
+        <button class="button button--outline" id="save-draft" type="button">Сохранить ↗</button>
+        <button class="button button--ghost" id="reset-draft" type="button">Сбросить демо ↻</button>
+      </div>
+    </div>
+    <p class="storage-status" id="storage-status" role="status" aria-live="polite">Изменения сохраняются в этом браузере.</p>
+
+    <section class="brand-section brand-section--brief" id="brief" aria-labelledby="brief-heading">
+      <div class="section-heading">
+        <span class="section-number">[ 01 ]</span>
+        <div><span class="eyebrow">THE FOUNDATION</span><h2 id="brief-heading">БРИФ<span class="accent-text">.</span></h2></div>
+        <p>Кто мы, для кого и почему у нас вообще есть право ломать шаблоны.</p>
+      </div>
+      <div class="section-content" id="brief-root"></div>
+    </section>
+
+    <section class="brand-section brand-section--colors" id="colors" aria-labelledby="colors-heading">
+      <div class="section-heading">
+        <span class="section-number">[ 02 ]</span>
+        <div><span class="eyebrow">LOUD, NOT RANDOM</span><h2 id="colors-heading">ЦВЕТ<span class="accent-text">.</span></h2></div>
+        <p>Три заранее согласованных режима: жар, кислота и глубокий красный.</p>
+      </div>
+      <div class="section-content" id="colors-root"></div>
+    </section>
+
+    <section class="brand-section brand-section--type" id="type" aria-labelledby="type-heading">
+      <div class="section-heading">
+        <span class="section-number">[ 03 ]</span>
+        <div><span class="eyebrow">TYPE IS AN ATTITUDE</span><h2 id="type-heading">ТИПО<span class="accent-text">.</span></h2></div>
+        <p>Крупные слова, резкий ритм и свободное пространство.</p>
+      </div>
+      <div class="section-content" id="type-root"></div>
+    </section>
+
+    <section class="brand-section brand-section--mockups" id="mockups" aria-labelledby="mockups-heading">
+      <div class="section-heading">
+        <span class="section-number">[ 04 ]</span>
+        <div><span class="eyebrow">FROM RULES TO REALITY</span><h2 id="mockups-heading">МАКЕТЫ<span class="accent-text">.</span></h2></div>
+        <p>Проверяем систему на постере и карточке для соцсетей. Пока это основа для дизайна команды.</p>
+      </div>
+      <div class="section-content" id="mockups-root"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>ERROR 404 ®</span>
+    <span>NOT A BUG. A BRAND SYSTEM.</span>
+    <a href="#top">НАВЕРХ ↑</a>
+  </footer>
+</body>
+</html>
